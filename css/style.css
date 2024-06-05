@@ -491,6 +491,8 @@ header {
 
 /* #region Footer */
 
+/* footer first section */
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -531,6 +533,8 @@ header {
   display: flex;
   align-items: baseline;
 }
+
+/* footer second section */
 
 .footer-socials {
   display: flex;
@@ -579,6 +583,8 @@ header {
 .footer-link-svg {
   fill: #f4f4fd;
 }
+
+/* footer third section */
 
 .footer-form-container {
   display: flex;
