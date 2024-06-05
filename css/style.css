@@ -631,7 +631,7 @@ header {
 .modal-close:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff
+  fill: #ffffff;
 }
 
 .modal-paragraph {
@@ -690,7 +690,7 @@ header {
 }
 
 .modal-input:focus+svg {
-  fill: #4D5AE5
+  fill: #4D5AE5;
 }
 
 .textarea-section {
@@ -746,7 +746,7 @@ header {
   border: none;
 }
 
-.checkbox-input:checked+.checkbox-label .checkbox-span .checkbox-icon {
+.checkbox-section .checkbox-input:checked+.checkbox-label .checkbox-span .checkbox-icon {
   fill: #F4F4FD;
 }
 
@@ -755,12 +755,13 @@ header {
 }
 
 .modal-btn {
+  font-family: "Roboto", sans-serif;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
   padding: 16px 32px;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -771,7 +772,6 @@ header {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 0 auto;
 }
 
 
