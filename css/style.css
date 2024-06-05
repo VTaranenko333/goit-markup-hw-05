@@ -741,18 +741,12 @@ header {
   margin-right: 8px;
 }
 
-/* .checkbox-input:checked+.checkbox-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
-} */
-
 .checkbox-section .checkbox-input:checked+.checkbox-label .checkbox-span {
   background-color: #404bbf;
   border: none;
 }
 
-.checkbox-section .checkbox-input:checked+.checkbox-label .checkbox-span .checkbox-icon {
+.checkbox-input:checked+.checkbox-label .checkbox-span .checkbox-icon {
   fill: #F4F4FD;
 }
 
